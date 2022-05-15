@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+body #message-container {
+  width: 80%;
+  max-width: 1200px;
+}
+body #message-container div {
+  background-color: #ccc;
+  padding: 5px;
+}
+body #message-container div:nth-child(2n) {
+  background-color: #fff;
+}
+body #send-container {
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  background-color: white;
+  max-width: 1200px;
+  width: 80%;
+  display: flex;
+}
+body #message-input {
+  flex-grow: 1;
+}/*# sourceMappingURL=main.css.map */
