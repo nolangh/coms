@@ -1,20 +1,25 @@
 {
-  "name": "coms",
-  "version": "1.0.0",
-  "description": "Command line chat server for class",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nolangh/coms.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nolangh/coms/issues"
-  },
-  "homepage": "https://github.com/nolangh/coms#readme"
+	"name": "coms",
+	"version": "1.0.0",
+	"description": "Command line chat server for class",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nolangh/coms.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nolangh/coms/issues"
+	},
+	"homepage": "https://github.com/nolangh/coms#readme",
+	"dependencies": {
+		"express": "^4.18.1",
+		"nodemon": "^2.0.16",
+		"socket.io": "^4.5.0"
+	}
 }
